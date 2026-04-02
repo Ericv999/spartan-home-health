@@ -166,8 +166,13 @@ nav {
 }
 
 .hero-side-her .hero-side-bg {
-  background-image: url('https://images.unsplash.com/photo-1518611012118-696072aa579a?w=1200&q=80');
+  background-image: url('/images/spartan-woman.png');
   background-position: 70% 15%;
+  filter: brightness(0.7) contrast(1.1) saturate(0.8);
+}
+
+.hero-side-her::before {
+  background: linear-gradient(170deg, rgba(74,111,165,0.08) 0%, rgba(10,10,12,0.55) 60%, rgba(10,10,12,0.92) 100%);
 }
 
 .hero-side-his .hero-side-bg {
