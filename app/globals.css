@@ -137,7 +137,7 @@ nav {
 }
 
 .hero-side-his::before {
-  background: linear-gradient(190deg, rgba(196,64,64,0.1) 0%, rgba(10,10,12,0.85) 60%, rgba(10,10,12,0.98) 100%);
+  background: linear-gradient(190deg, rgba(196,64,64,0.08) 0%, rgba(10,10,12,0.55) 60%, rgba(10,10,12,0.92) 100%);
 }
 
 .hero-split::after {
@@ -173,6 +173,7 @@ nav {
 .hero-side-his .hero-side-bg {
   background-image: url('/images/spartan-man.png');
   background-position: 30% 15%;
+  filter: brightness(0.7) contrast(1.1) saturate(0.8);
 }
 
 .hero-side-content {
