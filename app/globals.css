@@ -169,6 +169,8 @@ nav {
   background-image: url('/images/spartan-woman.png');
   background-position: 70% 15%;
   background-size: 85%;
+  background-repeat: no-repeat;
+  background-color: var(--black);
   filter: brightness(0.55) contrast(1.1) saturate(0.8);
 }
 
