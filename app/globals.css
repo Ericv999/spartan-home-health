@@ -271,15 +271,28 @@ nav {
 
 .hero-side-label {
   font-family: var(--font-cinzel), 'Cinzel', serif;
-  font-size: 0.75rem;
+  font-size: 1rem;
   font-weight: 700;
   letter-spacing: 0.3em;
   text-transform: uppercase;
   color: var(--gold);
-  margin-bottom: 0.75rem;
+  margin-bottom: 1.1rem;
   opacity: 0;
   transform: translateY(20px);
   animation: fadeUp 0.8s 0.6s forwards;
+}
+
+.hero-side-label::before {
+  content: '';
+  display: block;
+  width: 30px;
+  height: 2px;
+  background: var(--gold);
+  margin-bottom: 0.75rem;
+}
+
+.hero-side-his .hero-side-label::before {
+  margin-left: auto;
 }
 
 .hero-side-title {
@@ -999,7 +1012,7 @@ footer {
     min-height: 70vh;
   }
 
-  .hero-side-label { font-size: 0.6rem; letter-spacing: 0.2em; }
+  .hero-side-label { font-size: 0.85rem; letter-spacing: 0.2em; }
   .hero-side-title { font-size: clamp(1.4rem, 5vw, 2.2rem); }
   .hero-side-desc { font-size: 0.75rem; max-width: 200px; margin-bottom: 1rem; }
   .hero-btn { padding: 0.7rem 1.2rem; font-size: 0.65rem; }
