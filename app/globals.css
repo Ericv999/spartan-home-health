@@ -425,6 +425,8 @@ nav {
   background: linear-gradient(160deg, rgba(42,42,56,0.6), rgba(26,26,36,0.9));
   border: 1px solid rgba(200,165,90,0.12);
   padding: 1.75rem 2rem;
+  display: flex;
+  flex-direction: column;
   position: relative;
   overflow: hidden;
   transition: border-color 0.4s, transform 0.4s;
@@ -528,6 +530,7 @@ nav {
 .plan-btn {
   display: block;
   width: 100%;
+  margin-top: auto;
   padding: 1rem;
   text-align: center;
   font-family: var(--font-manrope), 'Manrope', sans-serif;
