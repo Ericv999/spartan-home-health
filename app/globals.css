@@ -923,6 +923,11 @@ footer {
   .hero-center-badge h1 { font-size: 0.65rem; letter-spacing: 0.2em; }
   .hero-center-badge .hero-tagline { font-size: 0.6rem; }
 
+  .hero-side-her .hero-side-bg {
+    background-size: cover;
+    background-position: 60% 20%;
+  }
+
   .plans-grid {
     grid-template-columns: 1fr;
     max-width: 400px;
