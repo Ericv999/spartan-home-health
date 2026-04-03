@@ -30,7 +30,7 @@ export default function Home() {
               style={{ color: "var(--gold)" }}
             />
           </svg>
-          <span className="nav-logo-text">Spartan</span>
+          <span className="nav-logo-text"><span className="nav-logo-short">Spartan</span><span className="nav-logo-full">Spartan Home Health</span></span>
         </a>
         <ul className="nav-links">
           <li>

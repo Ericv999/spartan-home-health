@@ -962,6 +962,7 @@ footer {
 }
 
 .mobile-break { display: none; }
+.nav-logo-full { display: none; }
 
 /* ANIMATIONS */
 @keyframes fadeUp {
@@ -995,6 +996,9 @@ footer {
   }
   .nav-links { display: none; }
   .mobile-break { display: block; }
+  .nav-logo svg { display: none; }
+  .nav-logo-short { display: none; }
+  .nav-logo-full { display: inline; }
   .hamburger {
     display: block;
     position: absolute;
