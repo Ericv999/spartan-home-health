@@ -130,17 +130,6 @@ export default function Home() {
         <div className="plans-grid">
           {/* HIS PLAN */}
           <div className="plan-card reveal">
-            <svg
-              className="plan-icon"
-              viewBox="0 0 48 48"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="1.5"
-            >
-              <circle cx="24" cy="14" r="8" />
-              <path d="M8 42c0-8.837 7.163-16 16-16s16 7.163 16 16" />
-              <path d="M30 10l6-6M36 4l-2 6 6-2" strokeWidth="1.2" />
-            </svg>
             <div className="plan-name">His Plan</div>
             <div className="plan-for">Testosterone + Performance</div>
             <div className="plan-price">
@@ -162,19 +151,6 @@ export default function Home() {
 
           {/* HOUSEHOLD PLAN */}
           <div className="plan-card featured reveal">
-            <svg
-              className="plan-icon"
-              viewBox="0 0 48 48"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="1.5"
-              style={{ marginTop: "1.5rem" }}
-            >
-              <circle cx="16" cy="14" r="7" />
-              <circle cx="32" cy="14" r="7" />
-              <path d="M4 42c0-7.732 5.373-14 12-14 2.2 0 4.27.6 6.05 1.65M44 42c0-7.732-5.373-14-12-14-2.2 0-4.27.6-6.05 1.65" />
-              <path d="M20 34l4-3 4 3" strokeWidth="1.2" />
-            </svg>
             <div className="plan-name">Household Plan</div>
             <div className="plan-for">His + Hers Combined</div>
             <div className="plan-price">
@@ -196,17 +172,6 @@ export default function Home() {
 
           {/* HER PLAN */}
           <div className="plan-card reveal">
-            <svg
-              className="plan-icon"
-              viewBox="0 0 48 48"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="1.5"
-            >
-              <circle cx="24" cy="14" r="8" />
-              <path d="M8 42c0-8.837 7.163-16 16-16s16 7.163 16 16" />
-              <path d="M20 8c0-2.21 1.79-4 4-4s4 1.79 4 4" strokeWidth="1.2" />
-            </svg>
             <div className="plan-name">Her Plan</div>
             <div className="plan-for">Hormone + Balance</div>
             <div className="plan-price">
