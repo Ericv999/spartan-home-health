@@ -1,5 +1,6 @@
 import ScrollReveal from "./components/ScrollReveal";
 import NavScroll from "./components/NavScroll";
+import MobileMenu from "./components/MobileMenu";
 import WaitlistForm from "./components/WaitlistForm";
 
 export default function Home() {
@@ -47,6 +48,7 @@ export default function Home() {
             </a>
           </li>
         </ul>
+        <MobileMenu />
       </nav>
 
       {/* HERO */}
