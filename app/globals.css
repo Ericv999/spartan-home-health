@@ -440,6 +440,7 @@ nav {
 .plan-card.featured {
   border-color: var(--gold);
   background: linear-gradient(160deg, rgba(200,165,90,0.08), rgba(26,26,36,0.95));
+  padding-top: 2.75rem;
 }
 
 .plan-card.featured::before {
