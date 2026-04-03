@@ -371,7 +371,7 @@ nav {
 /* COUPLES / PLANS */
 .couples-section {
   background: linear-gradient(180deg, var(--black) 0%, var(--deep) 30%, var(--deep) 100%);
-  padding: 6rem 3rem;
+  padding: 3rem 3rem 6rem;
   position: relative;
 }
 
