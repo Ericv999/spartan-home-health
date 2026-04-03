@@ -1027,7 +1027,7 @@ footer {
 
   .form-row { flex-direction: column; }
 
-  .couples-section,
+  .couples-section { padding: 1.5rem 1.5rem 4rem; }
   .problem-section,
   .services-section,
   .how-section,
