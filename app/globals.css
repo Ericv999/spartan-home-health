@@ -273,7 +273,7 @@ nav {
 
 .hero-center-badge {
   position: absolute;
-  top: 50%;
+  top: 28%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 20;
@@ -920,8 +920,7 @@ footer {
   .hero-side-desc { font-size: 0.75rem; max-width: 200px; margin-bottom: 1rem; }
   .hero-btn { padding: 0.7rem 1.2rem; font-size: 0.65rem; }
 
-  .hero-center-badge h1 { font-size: 0.65rem; letter-spacing: 0.2em; }
-  .hero-center-badge .hero-tagline { font-size: 0.6rem; }
+  .hero-center-badge { display: none; }
 
   .hero-side-her .hero-side-bg {
     background-size: cover;
