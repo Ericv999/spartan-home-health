@@ -911,30 +911,17 @@ footer {
   nav { padding: 1rem 1.5rem; }
   .nav-links { display: none; }
 
-  .hero-split {
-    flex-direction: column;
-    min-height: auto;
-  }
-
-  .hero-split::after { display: none; }
-
   .hero-side {
-    min-height: 70vh;
-    padding: 6rem 2rem 2.5rem;
+    padding: 6rem 1.25rem 2rem;
   }
 
-  .hero-side-his .hero-side-content {
-    align-self: flex-start;
-    text-align: left;
-  }
+  .hero-side-label { font-size: 0.6rem; letter-spacing: 0.2em; }
+  .hero-side-title { font-size: clamp(1.4rem, 5vw, 2.2rem); }
+  .hero-side-desc { font-size: 0.75rem; max-width: 200px; margin-bottom: 1rem; }
+  .hero-btn { padding: 0.7rem 1.2rem; font-size: 0.65rem; }
 
-  .hero-side-his .hero-side-desc { margin-left: 0; }
-  .hero-side-his .hero-btn { float: none; }
-
-  .hero-center-badge {
-    top: 5rem;
-    transform: translateX(-50%);
-  }
+  .hero-center-badge h1 { font-size: 0.65rem; letter-spacing: 0.2em; }
+  .hero-center-badge .hero-tagline { font-size: 0.6rem; }
 
   .plans-grid {
     grid-template-columns: 1fr;
@@ -965,6 +952,8 @@ footer {
 }
 
 @media (max-width: 480px) {
-  .hero-side { min-height: 60vh; padding: 5rem 1.5rem 2rem; }
-  .hero-side-title { font-size: 2rem; }
+  .hero-side { padding: 5rem 1rem 1.5rem; }
+  .hero-side-title { font-size: clamp(1.2rem, 4.5vw, 1.8rem); }
+  .hero-side-desc { font-size: 0.7rem; max-width: 160px; }
+  .hero-btn { padding: 0.6rem 1rem; font-size: 0.6rem; }
 }
