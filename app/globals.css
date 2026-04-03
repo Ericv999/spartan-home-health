@@ -168,7 +168,7 @@ nav {
 .hero-side-her .hero-side-bg {
   background-image: url('/images/spartan-woman.png');
   background-position: 70% 15%;
-  background-size: 115%;
+  background-size: 85%;
   filter: brightness(0.55) contrast(1.1) saturate(0.8);
 }
 
