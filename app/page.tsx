@@ -119,7 +119,7 @@ export default function Home() {
       <section className="couples-section" id="plans">
         <div className="section-overline reveal">The Plans</div>
         <h2 className="section-title reveal">
-          One Household. Fully Optimized.
+          One Household.<br className="mobile-break" /> Fully Optimized.
         </h2>
         <p className="section-subtitle reveal">
           Choose his plan, her plan, or save with the household plan. Every plan
