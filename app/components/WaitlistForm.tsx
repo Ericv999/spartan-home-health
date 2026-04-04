@@ -73,6 +73,7 @@ export default function WaitlistForm() {
         <option value="" disabled>
           I&apos;m interested in...
         </option>
+        <option value="glp1">GLP-1 Weight Loss</option>
         <option value="his_plan">His Plan (TRT + ED)</option>
         <option value="her_plan">Her Plan (HRT)</option>
         <option value="household_plan">Household Plan (His + Hers)</option>

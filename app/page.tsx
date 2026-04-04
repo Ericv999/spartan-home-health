@@ -122,12 +122,33 @@ export default function Home() {
           One Household.<br className="mobile-break" /> Fully Optimized.
         </h2>
         <p className="section-subtitle reveal">
-          Choose his plan, her plan, or save with the household plan. Every plan
-          includes doctor consultations, lab coordination, and monthly
+          Weight loss, hormone optimization, or the full household stack. Every
+          plan includes doctor consultations, lab coordination, and monthly
           medication delivery.
         </p>
 
         <div className="plans-grid">
+          {/* WEIGHT LOSS PLAN */}
+          <div className="plan-card reveal">
+            <div className="plan-name">Weight Loss</div>
+            <div className="plan-for">GLP-1 Medication</div>
+            <div className="plan-price">
+              $349<span>/mo</span>
+            </div>
+            <div className="plan-save">&nbsp;</div>
+            <ul className="plan-includes">
+              <li>GLP-1 medication (Semaglutide)</li>
+              <li>Provider video consultations</li>
+              <li>Body composition tracking</li>
+              <li>Monthly medication delivery</li>
+              <li>Ongoing dosage optimization</li>
+              <li>Available for him or her</li>
+            </ul>
+            <a href="#waitlist" className="plan-btn">
+              Join Waitlist
+            </a>
+          </div>
+
           {/* HIS PLAN */}
           <div className="plan-card reveal">
             <div className="plan-name">His Plan</div>
@@ -160,7 +181,7 @@ export default function Home() {
             <ul className="plan-includes">
               <li>Everything in His Plan</li>
               <li>Everything in Her Plan</li>
-              <li>Shared provider dashboard</li>
+              <li>GLP-1 add-on available</li>
               <li>Coordinated lab scheduling</li>
               <li>Priority support</li>
               <li>Peptide add-ons available</li>
@@ -309,13 +330,32 @@ export default function Home() {
       {/* SERVICES */}
       <section className="services-section" id="services">
         <div className="section-overline reveal">Treatment Lines</div>
-        <h2 className="section-title reveal">Four Pillars of Optimization</h2>
+        <h2 className="section-title reveal">Five Pillars of Optimization</h2>
         <p className="section-subtitle reveal">
           Every treatment is prescribed by licensed providers and delivered
           monthly to your door.
         </p>
 
         <div className="services-grid">
+          <div className="service-card reveal">
+            <svg
+              viewBox="0 0 40 40"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="1.5"
+            >
+              <path d="M20 36V20M14 26l6 6 6-6" />
+              <circle cx="20" cy="12" r="8" />
+              <path d="M12 12h16" />
+            </svg>
+            <h3>GLP-1 Weight Loss</h3>
+            <p>
+              Semaglutide prescribed by licensed providers. Clinically proven to
+              reduce body weight 15-20%. Weekly injections delivered to your
+              door — for him or her.
+            </p>
+          </div>
+
           <div className="service-card reveal">
             <svg
               viewBox="0 0 40 40"
